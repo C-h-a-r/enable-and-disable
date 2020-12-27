@@ -2,7 +2,7 @@ const discord = require('discord.js');
 const fs = require('fs');
 const db = require('wio.db');
 const client = new discord.Client();
-const cofig = require('./congig.json')
+const config = require('./config.json')
 
 client.commands = new discord.Collection();
 client.aliases = new discord.Collection();
