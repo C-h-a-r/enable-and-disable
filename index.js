@@ -13,7 +13,7 @@ client.on("ready", async () => {
   console.log(`Bot Is Ready To Go - ${client.user.tag}`);
 });
 
-const Categories = ["mod"]; //Commands => Category => Command
+const Categories = ["mod", "misc"]; //Commands => Category => Command
 
 Categories.forEach(async function(Category) { //
     fs.readdir(`./commands/${Category}`, async function(error, files) {
